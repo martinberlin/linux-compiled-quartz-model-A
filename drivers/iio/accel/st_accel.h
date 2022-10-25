@@ -36,7 +36,6 @@ enum st_accel_type {
 	LIS3DHH,
 	LIS2DE12,
 	LIS2HH12,
-	SC7A20,
 	ST_ACCEL_MAX,
 };
 
@@ -62,7 +61,6 @@ enum st_accel_type {
 #define LIS3DE_ACCEL_DEV_NAME		"lis3de"
 #define LIS2DE12_ACCEL_DEV_NAME		"lis2de12"
 #define LIS2HH12_ACCEL_DEV_NAME		"lis2hh12"
-#define SC7A20_ACCEL_DEV_NAME		"sc7a20"
 
 #ifdef CONFIG_IIO_BUFFER
 int st_accel_allocate_ring(struct iio_dev *indio_dev);
